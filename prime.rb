@@ -1,5 +1,5 @@
 def prime?(n)
-  if (2..n).any? {|i| i % n == 0} 
+  if (2...n).any? {|i| i % n == 0} 
     return false
   else
     return true 
