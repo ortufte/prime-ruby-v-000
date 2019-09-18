@@ -3,7 +3,7 @@ def prime?(n)
  if array.any? {|i| i % n == 0} 
     return false
   elsif 
-    n < 1 
+    n <= 1 
     return false
   end
 end
