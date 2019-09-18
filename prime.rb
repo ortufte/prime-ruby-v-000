@@ -1,7 +1,11 @@
 def prime?(n)
-  array = (2..n).to_a 
-  array.any? {|i| i % n == 0}
- end
- 
-   
- 
+    if n <= 1
+      return false
+    else 
+        if (2...n).any? { |i| n % i  == 0}
+            return false
+        else
+            return true
+        end 
+    end
+end
