@@ -4,7 +4,7 @@ def prime?(n)
     return false 
   else 
     array.each do |i|
-     if i % n != 0} 
+     if i % n != 0 
       return true 
     else
       return false
